@@ -1,0 +1,590 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+html{
+    scroll-behavior: smooth;
+    scroll-padding: 4rem;
+}
+
+*{
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+
+}
+
+#home-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(19, 19, 19);
+    padding: 5px 5px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+
+}
+
+#home-header .home-logo img{
+    max-width: 180px;
+    max-height: 80px;
+    margin-top: 3px;
+
+}
+
+#home-header .home-nav-links ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    gap: 2rem;
+
+}
+
+#home-header .home-nav-links ul li{
+    list-style-type: none;
+
+}
+
+#home-header .home-nav-links ul li a{
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+}
+
+#home-header .home-nav-links ul li a:hover{
+    color: rgb(255, 215, 0);
+    font-size: 27px;
+
+}
+
+#home-header .home-product{
+    align-items: center;
+    margin-right: 30px;
+
+}
+
+#home-header .home-product a{
+    font-size: 25px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+
+}
+
+#home-header .home-product a:hover{
+    font-size: 27px;
+    color: rgb(85, 37, 131);
+
+}
+
+#home{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-image: url(../image/kobe-bg.png);
+    background-size: cover;
+    background-position: center;
+
+}
+
+#home .home-text {
+    color: white;
+    margin: 0 auto; 
+    position: absolute;
+    top: 50%; 
+    left: 30px; 
+    transform: translateY(-50%); 
+    text-align: left; 
+
+}
+
+#home .home-text h1{
+    font-size: 200px;
+    margin-bottom: 8px;
+
+}
+
+#home .home-text .home-h1-1{
+        color: rgb(255, 215, 0);
+
+}
+
+#home .home-text .home-h1-2{
+    color: rgb(85, 37, 131)
+
+}
+
+#home .home-text p{
+    font-size: 50px;
+
+}
+
+#home .home-text p.home-text-2{
+    margin-bottom: 10px;
+
+}
+
+#home .home-text .home-text-3{
+    text-transform: lowercase;
+
+}
+
+#home .home-text .home-btn{
+    margin-top: 30px;
+
+}
+
+#home .home-text .home-btn a{
+    font-size: 30px;
+    color: rgb(85, 37, 131);
+    background-color: rgb(255, 215, 0);
+    text-decoration: none;
+    padding: 15px 25px;
+    transition: all 0.3s ease;
+
+}
+
+#home .home-text .home-btn a:hover{
+    color: rgb(255, 215, 0);
+    background-color: rgb(85, 37, 131);
+    text-decoration: none;
+    padding: 15px 25px;
+
+}
+
+#about{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 30px 30px;
+    padding: auto;
+    background-color: rgb(19, 19, 19);
+
+}
+
+#about .about-img{
+    display: flex;
+    gap: 1rem;
+}
+
+#about .about-img .about-img-1 img{
+    height: 845px;
+    width: auto;
+
+}
+
+#about .about-img .about-img-2 img{
+    height: 845px;
+    width: auto;
+
+}
+
+#about .about-info{
+    color: white;
+    text-align: left;
+
+}
+
+#about .about-info .about-info-name1{
+    color: rgb(85, 37, 131);
+}
+
+#about .about-info .about-info-name2{
+    color: rgb(255, 215, 0);
+}
+
+
+#about .about-info h2{
+    font-size: 60px;
+    margin-bottom: 20px;
+
+}
+
+#about .about-info p{
+    font-size: 26px;
+
+}
+
+#about .about-info .about-btn{
+    font-size: 26px;
+    font-weight: 500;
+    display: flex;
+    justify-content: left;
+    gap: 1rem;
+    margin-top: 25px;
+}
+
+#about .about-info .about-btn a{
+    color: rgb(255, 215, 0);;
+    background-color: rgb(85, 37, 131);
+    text-decoration: none;
+    padding: 15px 25px;
+    transition: 0.2s;
+
+}
+
+#about .about-info .about-btn a:hover{
+    box-shadow: 0 0 0 4px;
+
+}
+
+#achievement{
+    color: white;
+    background-color: black;
+    padding: 30px 30px;
+
+}
+
+#achievement .achievement-text{
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+
+#achievement .achievement-text p{
+    font-size: 50px;
+
+}
+
+#achievement .achievement-text h2{
+    font-size: 80px;
+
+}
+
+#achievement .achievement-container .achievement-box p{
+    font-size: 30px;
+
+}
+
+#achievement .achievement-container .achievement-box h3{
+    font-size: 40px;
+}
+
+#achievement .achievement-container{
+    display: flex;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+
+}
+
+#achievement .achievement-container .achievement-box{
+    background-color: rgb(19, 19, 19);
+    padding: 25px 30px;
+    height: 350px;
+    width: auto;
+
+}
+
+#achievement .achievement-container .achievement-box .achievement-icon{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 5px;
+
+}
+
+#achievement .achievement-container .achievement-box .achievement-icon i{
+    font-size: 40px;
+    color:rgb(255, 215, 0);;
+
+}
+
+#achievement .achievement-container .achievement-box .achievement-btn{
+    margin: 40px 0;
+
+}
+
+#achievement .achievement-container .achievement-box .achievement-btn a{
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    color: rgb(85, 37, 131);
+    background-color: rgb(255, 215, 0);
+    padding: 10px 25px;
+
+}
+
+#achievement .achievement-container .achievement-box .achievement-btn a:hover{
+    text-decoration: none;
+    color: rgb(85, 37, 131);
+    background-color: rgb(255, 215, 0);
+    padding: 12px 27px;
+
+}
+
+#contact{
+    padding: 30px 30px;
+    color: white;
+    background-color: rgb(19, 19, 19);
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+
+}
+
+#contact .contact-text h2{
+    font-size: 90px;
+
+}
+
+#contact .contact-text p.contact-name{
+    font-size: 70px;
+    font-weight: 600;
+
+}
+
+#contact .contact-text p.contact-job{
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 100px;
+
+}
+
+#contact .contact-text .contact-list i{
+    font-size: 30px;
+    align-items: center;
+
+}
+
+#contact .contact-text .contact-list .contact-phone{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 15px;
+
+}
+
+#contact .contact-text .contact-list .contact-email{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 15px;
+
+}
+
+#contact .contact-text .contact-list .contact-ig{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 15px;
+
+}
+
+#contact .contact-text .contact-list li{
+    font-size: 30px;
+    list-style-type: none;
+
+}
+
+#contact .contact-text .contact-list li a{
+    text-transform: none;
+    color: rgb(255, 215, 0);
+    text-decoration: none;
+
+}
+
+#contact .contact-form 
+form input,
+form textarea{
+    font-size: 35px;
+    margin: 10px;
+}
+
+#contact .contact-form form input{
+    border: none;
+    outline: none;
+    color: rgb(19, 19, 19);
+    background-color: white;
+    padding: 10px 25px;
+    width: 100%;
+
+}
+
+#contact .contact-form form textarea{
+    border: none;
+    outline: none;
+    color: rgb(19, 19, 19);
+    background-color: white;
+    padding: 10px 25px;
+    width: 100%;
+    resize: none;
+
+}
+
+
+#contact .contact-form input.send{
+    width: auto;
+    font-size: 35px;
+    font-weight: 500;
+    color: rgb(85, 37, 131);
+    background-color: rgb(255, 215, 0);
+
+}
+
+#floater{
+    font-size: 30px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 30px 30px;
+
+}
+
+@media screen and (max-width: 800px){
+    #home-header{
+        padding: 5px 10px;
+    }
+
+    #home-header .home-logo img{
+        max-width: 80px;
+    }
+
+    #home-header .home-nav-links ul{
+        flex-direction: row;
+        gap: 8px;
+    }
+
+    #home-header .home-nav-links ul li a{
+        font-size: 14px;
+    }
+
+    #home-header .home-product a{
+        font-size: 14px;
+    }
+
+
+    #home .home-text{
+        padding: 8px;
+    }
+
+    #home .home-text h1{
+        font-size: 70px;
+    }
+
+    #home .home-text p{
+        font-size: 20px;
+    }
+
+    #home .home-text .home-btn a{
+        font-size: 15px;
+        padding: 6px 12px;
+    }
+
+    #about .about-img{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #about .about-img .about-img-1 img,
+    #about .about-img .about-img-2 img{
+        max-width: 100%;
+        height: auto;
+    }
+
+    #about .about-info h2{
+        font-size: 30px;
+    }
+
+    #about .about-info p{
+        font-size: 12px;
+    }
+
+    #about .about-info .about-btn a{
+        font-size: 10px;
+        padding: 5px 10px;
+    }
+    #achievement .achievement-text p{
+        font-size: 20px;
+    }
+
+    #achievement .achievement-text h2{
+        font-size: 30px;
+    }
+
+    #achievement .achievement-container{
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    #achievement .achievement-container .achievement-box{
+        height: 150px;
+    }
+
+    #achievement .achievement-container .achievement-box h3{
+        font-size: 20px;
+    }
+
+    #achievement .achievement-container .achievement-box p{
+        font-size: 15px;
+    }
+    #achievement .achievement-container .achievement-box .achievement-btn{
+        margin: 20px 0;
+    }
+
+    #achievement .achievement-container .achievement-box .achievement-btn a{
+        font-size: 14px;
+        padding: 5px 8px;
+    }
+
+    #contact{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    #contact .contact-text{
+        align-items: center;
+    
+    }
+
+    #contact .contact-text h2{
+        font-size: 40px;
+    }
+
+    #contact .contact-text p.contact-name{
+        font-size: 20px;
+    }
+
+    #contact .contact-text p.contact-job{
+        font-size: 20px;
+    }
+
+    #contact .contact-text .contact-list i,
+    #contact .contact-text .contact-list li{
+        font-size: 20px;
+    }
+
+    #contact .contact-text .contact-list li a{
+        font-size: 20px;
+    }
+    #contact .contact-form{
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        align-items: left;
+
+    }
+
+    #contact .contact-form form input,
+    #contact .contact-form form textarea{
+        font-size: 15px;
+        padding: 8px;
+        padding-left: 8px;
+        padding-right: 220px;
+    }
+
+    #contact .contact-form input.send{
+        font-size: 15px;
+        padding: 8px 14px;
+    }
+
+    #floater {
+        font-size: 12px;
+    }
+}
